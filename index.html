@@ -1,10 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: brown;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: cyan; /* Green */
+      color: black;
+  }
+  .bg-2 {
+      background-color: coral; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: sienna; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 60px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
 </head>
 <body>
-    
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">ABOUT ME</a></li>
+        <li><a href="#">MEMORIES</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Halo, Assalamu'alaikum :)</h3>
+  <img src="IMG_0783.JPG" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>noviatrisary22@gmail.com</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">ABOUT ME</h3>
+  <p>Novia Tri Sary. 22 Tahun. Menuntut Ilmu di Institut Teknologi Indonesia. Make Up Artist. Contact Me (089631745260) or Instagram @noviatrisary.</p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Find Me on Facebook
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">MEMORIES</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>“I love the confidence that makeup gives me.”</p>
+      <img src="60ba87438fd1474ba258e3a69014bba3.jpg" class="img-responsive margin" style="width:"100% alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>“The most beautiful makeup of a woman is passion. But cosmetics are easier to buy.”</p>
+      <img src="minneapolis-makeup-artist-kit.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>“She's not wearing makeup so her face just looks like skin.”</p>
+      <img src="Make-Up-Artist.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Thanks For Visit <a href="https://noviatrisary22.github.io/noviatrisary/</a></p>
+</footer>
+
 </body>
 </html>
+
+
